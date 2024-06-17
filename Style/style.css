@@ -1,6 +1,6 @@
 .no-size {height: 100px;}
 p {
-  color: red;
+  color: orangered;
   font-family:courier;
   font-size:160%;
   text-align:center;
@@ -10,4 +10,9 @@ h1,h2 {
   font-family:verdana;
   font-size:300%;
   text-align:center;
+}
+.comment {
+  font-size: larger;
+  font-family: cursive;
+  color: crimson;
 }
