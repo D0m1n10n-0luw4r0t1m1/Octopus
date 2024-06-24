@@ -14,10 +14,15 @@
   <br><p style="float: left;">Float-Left</p><p style="float: right;">Float-Right</p>
   <h2>Image Maps</h2>
   <img src="../Man.jpg" alt="Supposed to be a person" usemap="#pp" id="pp">
-
   <map name="pp">
     <area shape="rect" coords="240,0,770,703" alt="Face" href="../Face.jpg">
     <area shape="rect" coords="0,645,1343,1343" alt="Phone" href="../Body.jpg">
   </map>
+  <h2>The picture Element</h2>
+  <picture>
+    <source media="(min-width: 360px)" src="../Body.jpg">
+    <source media="(min-width: 203px)" src="../Face.jpg">
+    <img src="../Man.jpg" style="width:auto;">
+  </picture>
 </body>
 </html>
