@@ -24,4 +24,9 @@ img {
   font-size: xx-large;
   font-weight: 700;
   color: coral;
+  padding: 0;
+  margin: 0;
+ }
+ #pp {
+  height: 1343px;
  }
