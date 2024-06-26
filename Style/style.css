@@ -31,3 +31,19 @@ img {
  #pp {
   height: 1343px;
  }
+ table, th, td {
+  border: 9px groove salmon;
+  border-collapse: collapse;
+}
+th {
+  text-align: center;
+}
+table {
+  border-spacing: 5px;
+}
+#table {
+  width: 100%;
+  background-color: oldlace;
+  color: palevioletred;
+  background-color: deeppink;
+}
