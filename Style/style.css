@@ -5,11 +5,14 @@ p {
   font-size:160%;
   text-align:center;
 }
-h1,h2 {
+h1 {
   color: deepskyblue;
   font-family:verdana;
   font-size:300%;
-  text-align:center;
+}
+h2 {
+  color: deepskyblue;
+  font-size:200%;
 }
 .comment {
   font-size: larger;
@@ -24,9 +27,9 @@ img {
   font-size: xx-large;
   font-weight: 700;
   color: coral;
-  padding: 0;
   margin: 0;
   background-image: url(../Face.jpg);
+  text-align: center;
  }
  #pp {
   height: 1343px;
@@ -46,4 +49,9 @@ table {
   background-color: oldlace;
   color: palevioletred;
   background-color: deeppink;
+}
+.hrzntl-lne ol li a,.hrzntl-lne ul li a {
+  display: inline;
+  list-style-type: none;
+
 }
