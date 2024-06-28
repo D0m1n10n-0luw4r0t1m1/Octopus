@@ -4,18 +4,27 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../Style/style.css">
-	<link rel="shortcut icon" href="../Man.jpg" type="image/x-icon">
+	<link rel="shortcut icon" href="../Face.jpg" type="image/x-icon">
 	<title>Basic HTML Script</title>
 </head>
 <body>
 	<h1>JavaScript Insert Value (Date)</h1>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
-<p id="demo"></p>
-
-</body>
-
+	<button type="button" onclick="document.getElementById('pltfrm').innerHTML='Hello JavaScript!'">Click me</button><br>
+	<button type="button" onclick="document.getElementById('pltfrm').innerHTML=Date()">Click me to display Date and Time.</button>
+	<p id="pltfrm"></p>		
+	<img id="img" src="../Man.jpg">
+	<button type="button" onclick="zoom(0)">Face</button>
+	<button type="button" onclick="zoom(1)">Body</button>
+	<button type="button" onclick="zoom(2)">Reset</button>
+	<script>
+		document.getElementById("pltfrm").style.fontSize = "50px";
+		document.getElementById('pltfrm').innerHTML='Hello JavaScript!';
+		function zoom(mgnfy) {var pic;
+			if (mgnfy == 0) {pic = "../Face.jpg"}
+			else {pic = "../Body.jpg"}
+			if (mgnfy == 2) {pic = "../Man.jpg"}
+			document.getElementById('img').src = pic;
+		}
+	</script>
 </body>
 </html>
