@@ -1,0 +1,16 @@
+Classes:
+	Search Bars:
+		1)Topnav - nav-bar1
+		2)Container - search-bar1
+		3)Search-Container - search-br2
+		4)Suggestions - search-predict
+		5)Card-Container
+		6)Active
+ID's:
+	Search Bars:
+		1)Search
+		2)Suggestions
+	 Video Uplaod:
+	 	1)Uplaod-Progress
+		2)Progress-Text
+		3)Progress-Container
