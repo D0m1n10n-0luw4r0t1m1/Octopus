@@ -1,0 +1,23 @@
+* {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif11;
+	font-weight: 900;
+}
+.title {
+	font-size: 125px;
+	text-align: center;
+}
+.git-command {
+	font-size: 75px;
+	text-align: center;
+	float: left;
+}
+.typ-1 {
+	color: crimson;
+	background-image: url(../Logo.png);
+	background-size: contain;
+	background-position: center;
+}
+.cnsl {
+	color: forestgreen;
+	text-align: center;
+}
