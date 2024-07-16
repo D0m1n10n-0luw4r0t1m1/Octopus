@@ -1,10 +1,15 @@
 * {
+	padding: 0;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif11;
 	font-weight: 900;
 }
-.title {
+body {
+	background-color:rgb(0, 51 , 127);
+}
+.titl {
 	font-size: 125px;
 	text-align: center;
+	margin: 0;
 }
 .git-command {
 	font-size: 75px;
@@ -12,12 +17,40 @@
 	float: left;
 }
 .typ-1 {
-	color: crimson;
+	color: rgb(64, 180, 64);
 	background-image: url(../Logo.png);
 	background-size: contain;
 	background-position: center;
 }
 .cnsl {
-	color: forestgreen;
-	text-align: center;
+	color: rgb(144, 211, 95);
+	background-color: aliceblue;
+	padding: 3%;
+	border-radius: 15px;
+	font-size: x-large;
+	float: left;
+	width: 90%;
+}
+.sb-titl {
+	font-size: 56px;
+	float: left;
+	margin-top: 0;
+}
+.typ-2 {
+	color: rgb(255, 179, 128);
+}
+.typ-3 {
+	font-size: 28px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	float: left;
+}
+.xrnl-cd {
+	background-color: rgb(255, 240, 158);
+	border-radius: 3px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: rgb(1, 127, 86);
+}
+.wrds {
+	word-spacing: 7px;
+	color: rgb(128, 36, 36);
 }
