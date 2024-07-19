@@ -21,10 +21,27 @@
 		$ git init
 	</div>
 	<div class="typ-3">
+		<div class="wrds" style="padding-bottom: 0;">
+			You've now initialized the working directory you may notice a new directory created, named <span class="xtrnl-cd">.git</span>
+			Next using <span class="xtrnl-cd">git add .</span> to take a snapshot of the contents of all files under the current directory.
+		</div>
+		<p class="typ-2 sb-titl">Making changes</p><br>
 		<div class="wrds">
-			You’ve now initialized the working directory ​you may notice a new directory created, named <span class="xrnl-cd">.git</span>
-			Next using <span class="xrnl-cd">git add .</span> to take a snapshot of the contents of all files under the current directory.
+			After modifing something in the directory, add the updated contents to the index,
+			<span class="xtrnl-cd">$ git add file1 file2 file3</span><br><br>
+			Alternatively, instead of running <span class="xtrnl-cd">git add</span> beforehand, you can use
+		</div>
+		<div class="cnsl">
+			$ git commit -a
+		</div>
+		<div class="wrds">
+			You are now ready to commit. You can see what is about to be committed using <span class="xtrnl-cd">git diff --cached</span>.<br>
+			Using <span class="xtrnl-cd">git diff</span> without<span class="xtrnl-cd"></span class="xtrnl-cd">--cached</span> will show you any changes that you’ve made but not yet added to the index.
+		</div>
+		<div class="wrds nt">
+			Use<span class="xtrnl-cd">git restore --staged (files)</span>to unstage
 		</div>
 	</div>
+	<iframe width="718" height="404" src="blob:https://www.youtube.com/44e438c9-9740-4649-bac5-c77be76a50e3" title="The Villager Covers and FORBIDDEN SONGS!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>

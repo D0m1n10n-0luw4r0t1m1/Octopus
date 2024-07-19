@@ -1,0 +1,52 @@
++[1mdiff --git a/New/Index.html b/New/Index.html+[m
++[1mindex aca5617..c8c793f 100644+[m
++[1m--- a/New/Index.html+[m
++[1m+++ b/New/Index.html+[m
++[36m@@ -21,9 +21,18 @@+[m
+ 		$ git init+[m
+ 	</div>+[m
+ 	<div class="typ-3">+[m
++[32m++[m		+[32m<div class="wrds" style="padding-bottom: 0;">+[m
++[32m++[m			+[32mYou've now initialized the working directory you may notice a new directory created, named <span class="xtrnl-cd">.git</span>+[m
++[32m++[m			+[32mNext using <span class="xtrnl-cd">git add .</span> to take a snapshot of the contents of all files under the current directory.+[m
++[32m++[m		+[32m</div>+[m
++[32m++[m		+[32m<p class="typ-2 sb-titl">Making changes</p><br>+[m
++[32m++[m		+[32m<div class="wrds">+[m
++[32m++[m			+[32mAfter modifing something in the directory, add the updated contents to the index,+[m
++[32m++[m			+[32m<span class="xtrnl-cd">$ git add file1 file2 file3</span>+[m
++[32m++[m		+[32m</div>+[m
+ 		<div class="wrds">+[m
++[31m-			You’ve now initialized the working directory ​you may notice a new directory created, named <span class="xrnl-cd">.git</span>+[m
++[31m-			Next using <span class="xrnl-cd">git add .</span> to take a snapshot of the contents of all files under the current directory.+[m
++[32m++[m			+[32mYou are now ready to commit. You can see what is about to be committed using <span class="xtrnl-cd">git diff --cached</span>.<br>+[m
++[32m++[m			+[32mUsing <span class="xtrnl-cd">git diff</span> without<span class="xtrnl-cd"></span class="xtrnl-cd">--cached</span> will show you any changes that you’ve made but not yet added to the index.+[m
+ 		</div>+[m
+ 	</div>+[m
+ </body>+[m
++[1mdiff --git a/New/Logo.png b/New/Logo.png+[m
++[1mindex d9c1d26..4a9c4e8 100644+[m
+Binary files a/New/Logo.png and b/New/Logo.png differ
++[1mdiff --git a/New/Style/Style.css b/New/Style/Style.css+[m
++[1mindex d4b3867..2deddc3 100644+[m
++[1m--- a/New/Style/Style.css+[m
++[1m+++ b/New/Style/Style.css+[m
++[36m@@ -42,15 +42,16 @@+[m +[mbody {+[m
+ .typ-3 {+[m
+ 	font-size: 28px;+[m
+ 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;+[m
++[31m-	float: left;+[m
+ }+[m
++[31m-.xrnl-cd {+[m
++[32m++[m+[32m.xtrnl-cd {+[m
+ 	background-color: rgb(255, 240, 158);+[m
+ 	border-radius: 3px;+[m
+ 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;+[m
+ 	color: rgb(1, 127, 86);+[m
+ }+[m
+ .wrds {+[m
++[32m++[m	+[32mfloat: left;+[m
+ 	word-spacing: 7px;+[m
+ 	color: rgb(128, 36, 36);+[m
++[32m++[m	+[32mpadding-bottom: 2%;+[m
+ }+[m
+\ No newline at end of file+[m

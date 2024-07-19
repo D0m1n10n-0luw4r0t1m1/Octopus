@@ -42,15 +42,31 @@ body {
 .typ-3 {
 	font-size: 28px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	float: left;
 }
-.xrnl-cd {
+.xtrnl-cd {
 	background-color: rgb(255, 240, 158);
 	border-radius: 3px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: rgb(1, 127, 86);
 }
 .wrds {
+	float: left;
 	word-spacing: 7px;
 	color: rgb(128, 36, 36);
+	padding-bottom: 2%;
+}
+.nt {
+	float: right;
+	font-size: xx-large;
+	color: rgb(255, 80, 80);
+	background-color: rgb(255, 179, 128);
+	border-radius: 10px;
+	padding: 1% 0 1% 0;
+	margin-bottom: 3%;
+}
+.nt .xtrnl-cd {
+	color: rgb(0, 80, 50);
+	background-color: rgb(200, 180, 0);
+	border-radius: 50%;
+	border-radius: 8px;
 }
